@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatbot</title>
+        <link rel="stylesheet" <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="chatbot-box">
+            <button class="chatbot-button" id="chatbot-button">
+                <img
+                    src="./images/icons/logo-white.png"
+                    alt="chatboot logo white"
+                    id="chatbot-button-image"
+                />
+            </button>
+            <div class="chatbot chatbot-hide" id="chatbot">
+                <div class="chatbot-header">
+                    <div class="chatbot-header-left">
+                        <button class="btn btn-close" id="chatbot-close">
+                            <img />
+                            <img
+                                src="./images/icons/chevron-down.png"
+                                alt="chevron down"
+                            />
+                        </button>
+                    </div>
+
+                    <div class="chatbot-header-right">
+                        <div class="chatbot-logo">
+                            <img
+                                src="./images/icons/logo-blue.png"
+                                alt="chatbot logo"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chatbot-body">
+                    <div class="chat bot-chat">
+                        <p>سلام، چه کمکی میتونم بهتون بکنم؟</p>
+                    </div>
+
+                    <div class="chat user-chat">
+                        <p>آیا احراز هویت الزامیه؟</p>
+                    </div>
+
+                    <div class="chat bot-chat">
+                        <p>
+                            با توجه به قابلیت ساخت اکانت که توسط تریدر انجام می
+                            شود ، تریدر می بایست قبل از ساخت اکانت خود احراز
+                            هویت را تکمیل کرده و بعد از تاییدیه ساخت اکانت را
+                            انجام دهد ، درخواست تایید احراز هویت تریدر توسط تیم
+                            احراز هویت به سرعت تایید خواهد شد . نام و نام
+                            خانوادگی شما می بایست با اطلاعات کارت شناسایی شما
+                            یکسان باشد.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="chatbot-footer">
+                    <div class="chatbot-footer-countainer">
+                        <form class="chatbot-form">
+                            <button class="btn btn-send">
+                                <img
+                                    src="./images/icons/send.png"
+                                    alt="send image icon"
+                                />
+                            </button>
+
+                            <div class="chatbot-chat-input">
+                                <button class="btn btn-send-image">
+                                    <img
+                                        src="./images/icons/send-image.png"
+                                        alt="send image icon"
+                                    />
+                                </button>
+                                <input
+                                    type="text"
+                                    name="chat-input"
+                                    id="chat-input"
+                                    class="chat-input"
+                                    placeholder="گفت و گو کنید..."
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
